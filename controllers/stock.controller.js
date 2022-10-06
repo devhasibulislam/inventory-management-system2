@@ -77,7 +77,7 @@ exports.getStockById = async (req, res) => {
     //   store: stock.store.id
     // }
 
-    res.status(400).json({
+    res.status(200).json({
       status: "success",
       data: stock,
     });
